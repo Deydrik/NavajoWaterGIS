@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/analyte_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Analyte"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/analyte_concentration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Concentration"/>
+
+    <TextView
+        android:id="@+id/analyte_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date sampled"/>
+</LinearLayout>

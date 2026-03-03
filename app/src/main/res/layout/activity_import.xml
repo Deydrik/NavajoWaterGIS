@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnPickFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick file to import" />
+
+    <Button
+        android:id="@+id/btnImportFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Import selected file"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/import_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No file selected"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:id="@+id/import_preview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preview will appear here"
+        android:layout_marginTop="12dp"/>
+</LinearLayout>

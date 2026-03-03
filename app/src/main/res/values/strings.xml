@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Navajo WaterGIS</string>
+    <string name="well_name">Well name</string>
+    <string name="analyte">Analyte: Unknown</string>
+    <string name="lat_0_0_lng_0_0">Lat: 0.0, Lng: 0.0</string>
+    <string name="open_map">Open map</string>
+</resources>
